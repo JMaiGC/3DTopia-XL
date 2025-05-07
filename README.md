@@ -130,6 +130,8 @@ Furthermore, you can modify the inference parameters in [inference_dit.yml](./co
 | `mc_resolution` | 256 | The resolution of the unit cube for marching cube. |
 | `remesh` | False | Whether to run retopology after mesh extraction. |
 
+By changing the config to [inference_dit_text.yml](./configs/inference_dit_text.yml) and update the image encoding process to text encoding in the inference script, you will get the text-to-3D generation pipeline.
+
 
 
 ## :hotsprings: Training
